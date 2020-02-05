@@ -971,6 +971,15 @@ make sure this only happens on large viewports / desktop-ish devices.
     color: color(var(--darkgrey) l(-5%));
 }
 
+.post-full-title .permalink {
+    font-size: 1.6rem;
+    vertical-align: super;
+}
+
+.post-full-title .permalink a {
+    color: currentColor;
+}
+
 .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
